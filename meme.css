@@ -1,0 +1,114 @@
+
+.a{
+    font-size: 30px;
+    margin-left: 80px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 2px;
+}
+.b{
+    font-size: 25px;
+     margin-left: 80px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+.c{
+    font-size: 25px;
+     margin-left: 80px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+.d{
+    font-size: 25px;
+    margin-left: 80px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 2px;
+    margin-top: -58px;
+
+}
+.m{
+    width: 1520px;
+    height: 635px;
+    background-color: #ffe4c4;
+    padding-top: 10px;
+}
+.about{
+    font-size: 50px;
+    text-align: center;
+    color: #435334;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 2px;
+
+}
+.main{
+    font-size: 35px;
+    color: #ffffff90;
+    font-weight: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-indent: 50px;
+    margin-left: 25px; 
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 1090px;
+  height: 554px;
+  perspective: 1000px;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  margin-left: 210px; 
+  margin-top: 25px
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid #435334f4;
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+  background: linear-gradient(120deg, #9EB384 60%, #9eb38469 88%,
+     #ffd3c3 40%, #9eb38469 48%);
+  color: #fffffff4;
+}
+
+.flip-card-back {
+  background: linear-gradient(120deg, #9EB384 30%, #FAF1E4 88%,
+     #ffe4c4 40%, #9EB384 78%);
+  color: white;
+  transform: rotateY(180deg);
+}
+.page{
+  font-size: 35px;
+  margin-left: 10px;
+  text-align: left;
+}
+

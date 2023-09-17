@@ -1,0 +1,181 @@
+
+.a{
+    font-size: 30px;
+    margin-left: 80px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 2px;
+}
+.b{
+    font-size: 25px;
+     margin-left: 80px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+.c{
+    font-size: 25px;
+     margin-left: 80px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+.d{
+    font-size: 25px;
+    margin-left: 80px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 2px;
+    margin-top: -58px;
+}
+.m{
+    width: 1520px;
+    height: 495px;
+    background-color: #ffe4c4;
+    padding-top: 150px;
+}
+.mm{
+    width: 350px;
+    height: 350px;
+    background-color: #344228;
+    margin-left: 100px;
+}
+.Hel{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-left: 500px;
+    margin-top: -355px;
+    color: #344228;
+    font-size: 48px;
+}
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    margin-left: 500px;
+    color: #344228;
+    font-size: 48px;
+}
+.bbb{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 500px; 
+    color: #344228;
+    font-size: 48px;
+}
+.ccc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 500px; 
+    color: #344228;
+    font-size: 48px;
+}
+.cti {
+    background-color: #9EB384;
+    padding: 17px 30px;
+    border: 3px solid transparent;
+    border-radius: 0.6em;
+    transition: 0.2s;
+  }
+  
+  .cti:hover {
+    background-color: transparent;
+    border: 3px solid;
+    box-shadow: 0px 0px 27px 5px #435334;
+  }
+  
+  .CTI {
+    color: #344228;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    overflow: hidden;
+    border-right: 4px solid transparent;
+    white-space: nowrap;
+    margin: 0 auto;
+  }
+  
+  .cti:hover .CTI {
+    border-right: 4px solid #435334;
+    animation: letters 1.75s steps(22, end),
+      cursor .4s step-end infinite;
+  }
+  
+  @keyframes letters {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes cursor {
+    from {
+      border-color: transparent
+    }
+  
+    50% {
+      border-color: #435334
+    }
+
+  }
+  .card {
+    display: flex;
+    height: 70px;
+    width: 270px;
+  }
+  
+  .card svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .card .social-link1,.card .social-link2,.card .social-link3,.card .social-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: #435334;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+  }
+  
+  .card svg {
+    transform: scale(1);
+  }
+  
+ 
+  .card .social-link2:hover {
+    background-color: #435334;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  
+  .card .social-link4:hover {
+    background-color: #435334;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  @keyframes bounce_613 {
+    40% {
+      transform: scale(1.4);
+    }
+  
+    60% {
+      transform: scale(0.8);
+    }
+  
+    80% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
